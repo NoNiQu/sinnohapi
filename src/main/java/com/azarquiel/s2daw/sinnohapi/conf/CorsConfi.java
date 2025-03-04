@@ -17,7 +17,7 @@ public class CorsConfi {
         CorsConfiguration config = new CorsConfiguration();
 
         // Agregar las URLs permitidas en lugar de "*"
-        config.setAllowedOrigins(List.of("http://localhost:5173", "https://tudominio.com")); // Ajusta según tus necesidades
+        config.setAllowedOrigins(List.of("http://localhost:5173", "https://pokedexsinnoh.vercel.app/")); // Ajusta según tus necesidades
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true);
